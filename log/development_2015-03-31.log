@@ -1,0 +1,755 @@
+11:26:14 DEBUG:  
+11:26:14 DEBUG:  
+11:26:14 INFO: Started GET "/" for 127.0.0.1 at 2015-03-31 11:26:14 +0530 
+11:26:14 DEBUG:   [1m[36mActiveRecord::SchemaMigration Load (4.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m 
+11:26:14 INFO: Processing by UsersController#index as HTML 
+11:26:14 INFO: Index User info 
+11:26:14 INFO: sample text 
+11:26:14 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+11:26:14 DEBUG:   [1m[35mUser Load (1.3ms)[0m  SELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1 
+11:26:15 INFO:   Rendered users/index.html.erb within layouts/application (19.8ms) 
+11:26:16 INFO: Completed 200 OK in 1216ms (Views: 1125.7ms | ActiveRecord: 2.7ms) 
+11:28:49 DEBUG:  
+11:28:49 DEBUG:  
+11:28:49 INFO: Started GET "/" for 127.0.0.1 at 2015-03-31 11:28:49 +0530 
+11:28:49 INFO: Processing by UsersController#index as HTML 
+11:28:49 INFO: Index User info 
+11:28:49 INFO: sample text 
+11:28:49 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+11:28:49 DEBUG:   [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1[0m 
+11:28:49 INFO:   Rendered users/index.html.erb within layouts/application (1.5ms) 
+11:28:49 INFO: Completed 200 OK in 15ms (Views: 9.8ms | ActiveRecord: 0.5ms) 
+11:29:01 DEBUG:  
+11:29:01 DEBUG:  
+11:29:01 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 11:29:01 +0530 
+11:29:01 DEBUG:  
+11:29:01 DEBUG:  
+11:29:01 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-31 11:29:01 +0530 
+11:29:01 DEBUG:  
+11:29:01 DEBUG:  
+11:29:01 INFO: Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:01 +0530 
+11:29:01 DEBUG:  
+11:29:01 DEBUG:  
+11:29:01 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:01 +0530 
+11:29:01 DEBUG:  
+11:29:01 DEBUG:  
+11:29:01 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:01 +0530 
+11:29:01 DEBUG:  
+11:29:01 DEBUG:  
+11:29:01 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:01 +0530 
+11:29:01 DEBUG:  
+11:29:01 DEBUG:  
+11:29:01 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:01 +0530 
+11:29:51 DEBUG:  
+11:29:51 DEBUG:  
+11:29:51 INFO: Started GET "/" for 127.0.0.1 at 2015-03-31 11:29:51 +0530 
+11:29:51 INFO: Processing by UsersController#index as HTML 
+11:29:51 INFO: Index User info 
+11:29:51 INFO: sample text 
+11:29:51 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+11:29:51 DEBUG:   [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1 
+11:29:51 INFO:   Rendered users/index.html.erb within layouts/application (1.4ms) 
+11:29:51 INFO: Completed 200 OK in 14ms (Views: 9.2ms | ActiveRecord: 0.6ms) 
+11:29:51 DEBUG:  
+11:29:51 DEBUG:  
+11:29:51 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 11:29:51 +0530 
+11:29:51 DEBUG:  
+11:29:51 DEBUG:  
+11:29:51 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-31 11:29:51 +0530 
+11:29:52 DEBUG:  
+11:29:52 DEBUG:  
+11:29:52 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:52 +0530 
+11:29:52 DEBUG:  
+11:29:52 DEBUG:  
+11:29:52 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:52 +0530 
+11:29:52 DEBUG:  
+11:29:52 DEBUG:  
+11:29:52 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:52 +0530 
+11:29:52 DEBUG:  
+11:29:52 DEBUG:  
+11:29:52 INFO: Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:52 +0530 
+11:29:52 DEBUG:  
+11:29:52 DEBUG:  
+11:29:52 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:52 +0530 
+11:29:52 DEBUG:   [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m 
+11:30:03 DEBUG:  
+11:30:03 DEBUG:  
+11:30:03 INFO: Started GET "/signup" for 127.0.0.1 at 2015-03-31 11:30:03 +0530 
+11:30:03 INFO: Processing by UsersController#new as HTML 
+11:30:03 INFO: Index the userdetails 
+11:30:04 INFO:   Rendered users/new.html.erb within layouts/application (6.6ms) 
+11:30:04 INFO: Completed 200 OK in 37ms (Views: 32.1ms | ActiveRecord: 1.8ms) 
+11:30:04 DEBUG:  
+11:30:04 DEBUG:  
+11:30:04 INFO: Started POST "/users/create" for 127.0.0.1 at 2015-03-31 11:30:04 +0530 
+11:30:04 INFO: Processing by UsersController#create as HTML 
+11:30:04 INFO:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"1d1SytVTQedkRAqVjfpFRKoD3TtDcEDR+12xl0SU4cA=", "account"=>"1206", "commit"=>"LookUpAccount"} 
+11:30:04 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from create at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:26) 
+11:30:04 DEBUG:   [1m[36mUser Load (145.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (account = '1206') ORDER BY `users`.`id` ASC LIMIT 1[0m 
+11:30:04 INFO: Redirected to https://anytimemoney.ngrok.com/pin_check 
+11:30:04 INFO: Completed 302 Found in 162ms (ActiveRecord: 145.5ms) 
+11:30:05 DEBUG:  
+11:30:05 DEBUG:  
+11:30:05 INFO: Started GET "/pin_check" for 127.0.0.1 at 2015-03-31 11:30:05 +0530 
+11:30:05 INFO: Processing by UsersController#create as HTML 
+11:30:05 INFO:   Rendered users/create.html.erb within layouts/application (3.0ms) 
+11:30:05 INFO: Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 0.0ms) 
+11:30:05 DEBUG:  
+11:30:05 DEBUG:  
+11:30:05 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 11:30:05 +0530 
+11:30:05 DEBUG:  
+11:30:05 DEBUG:  
+11:30:05 INFO: Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-31 11:30:05 +0530 
+11:30:05 DEBUG:  
+11:30:05 DEBUG:  
+11:30:05 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 11:30:05 +0530 
+11:30:05 DEBUG:  
+11:30:05 DEBUG:  
+11:30:05 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 11:30:05 +0530 
+11:30:06 DEBUG:  
+11:30:06 DEBUG:  
+11:30:06 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-31 11:30:06 +0530 
+11:30:13 DEBUG:  
+11:30:13 DEBUG:  
+11:30:13 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 11:30:13 +0530 
+11:30:13 DEBUG:  
+11:30:13 DEBUG:  
+11:30:13 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 11:30:13 +0530 
+11:30:13 DEBUG:  
+11:30:13 DEBUG:  
+11:30:13 INFO: Started GET "/" for 127.0.0.1 at 2015-03-31 11:30:13 +0530 
+11:30:13 INFO: Processing by UsersController#index as HTML 
+11:30:13 INFO: Index User info 
+11:30:13 INFO: sample text 
+11:30:13 DEBUG:  
+11:30:13 DEBUG:  
+11:30:13 INFO: Started GET "/" for 127.0.0.1 at 2015-03-31 11:30:13 +0530 
+11:30:13 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+11:30:13 DEBUG:   [1m[35mUser Load (1.6ms)[0m  SELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1 
+11:30:13 INFO:   Rendered users/index.html.erb within layouts/application (2.1ms) 
+11:30:13 INFO: Completed 200 OK in 77ms (Views: 11.1ms | ActiveRecord: 1.6ms) 
+11:30:13 DEBUG:  
+11:30:13 DEBUG:  
+11:30:13 INFO: Started GET "/" for 127.0.0.1 at 2015-03-31 11:30:13 +0530 
+11:30:13 INFO: Processing by UsersController#index as HTML 
+11:30:13 INFO: Index User info 
+11:30:13 INFO: sample text 
+11:30:13 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+11:30:13 DEBUG:   [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1[0m 
+11:30:13 INFO:   Rendered users/index.html.erb within layouts/application (0.8ms) 
+11:30:13 INFO: Completed 200 OK in 14ms (Views: 9.3ms | ActiveRecord: 0.5ms) 
+11:30:13 INFO: Processing by UsersController#index as HTML 
+11:30:13 DEBUG:  
+11:30:13 DEBUG:  
+11:30:13 INFO: Started GET "/" for 127.0.0.1 at 2015-03-31 11:30:13 +0530 
+11:30:13 INFO: Processing by UsersController#index as HTML 
+11:30:13 INFO: Index User info 
+11:30:13 INFO: sample text 
+11:30:13 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+11:30:13 DEBUG:   [1m[35mUser Load (1.3ms)[0m  SELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1 
+11:30:13 INFO:   Rendered users/index.html.erb within layouts/application (0.9ms) 
+11:30:13 INFO: Completed 200 OK in 14ms (Views: 8.9ms | ActiveRecord: 1.3ms) 
+11:30:13 DEBUG:  
+11:30:13 DEBUG:  
+11:30:13 INFO: Started GET "/" for 127.0.0.1 at 2015-03-31 11:30:13 +0530 
+11:30:13 INFO: Processing by UsersController#index as HTML 
+11:30:13 INFO: Index User info 
+11:30:13 INFO: sample text 
+11:30:13 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+11:30:13 DEBUG:   [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1[0m 
+11:30:13 INFO:   Rendered users/index.html.erb within layouts/application (0.8ms) 
+11:30:13 INFO: Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 0.3ms) 
+11:30:13 INFO: Index User info 
+11:30:13 INFO: sample text 
+11:30:13 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+11:30:13 DEBUG:   [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1 
+11:30:13 INFO:   Rendered users/index.html.erb within layouts/application (4.0ms) 
+11:30:13 INFO: Completed 200 OK in 153ms (Views: 104.3ms | ActiveRecord: 1.7ms) 
+11:30:18 DEBUG:  
+11:30:18 DEBUG:  
+11:30:18 INFO: Started POST "/users/create" for 127.0.0.1 at 2015-03-31 11:30:18 +0530 
+11:30:18 INFO: Processing by UsersController#create as HTML 
+11:30:18 INFO:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"PDg9wgDbcfKxMgf4ldR1i+7AaQXCksehDO4+SUuMkoE=", "account"=>"", "commit"=>"LookUpAccount"} 
+11:30:18 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from create at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:26) 
+11:30:18 DEBUG:   [1m[35mUser Load (1.2ms)[0m  SELECT `users`.* FROM `users` WHERE (account = '') ORDER BY `users`.`id` ASC LIMIT 1 
+11:30:18 INFO: Redirected to https://anytimemoney.ngrok.com/signup 
+11:30:18 INFO: Completed 302 Found in 7ms (ActiveRecord: 1.2ms) 
+11:30:19 DEBUG:  
+11:30:19 DEBUG:  
+11:30:19 INFO: Started GET "/signup" for 127.0.0.1 at 2015-03-31 11:30:19 +0530 
+11:30:19 INFO: Processing by UsersController#new as HTML 
+11:30:19 INFO: Index the userdetails 
+11:30:19 INFO:   Rendered users/new.html.erb within layouts/application (2.1ms) 
+11:30:19 INFO: Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.0ms) 
+11:30:22 DEBUG:  
+11:30:22 DEBUG:  
+11:30:22 INFO: Started POST "/signup" for 127.0.0.1 at 2015-03-31 11:30:22 +0530 
+11:30:22 INFO: Processing by UsersController#create as HTML 
+11:30:22 INFO:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"PDg9wgDbcfKxMgf4ldR1i+7AaQXCksehDO4+SUuMkoE=", "name"=>"", "account"=>"", "balance"=>"", "pin"=>"", "commit"=>"SignUp"} 
+11:30:22 DEBUG: Unpermitted parameters: utf8, authenticity_token, commit 
+11:30:22 DEBUG:   [1m[36mSQL (19.8ms)[0m  [1mBEGIN[0m 
+11:30:22 DEBUG:   [1m[35mSQL (111.1ms)[0m  INSERT INTO `users` (`created_at`, `name`, `updated_at`) VALUES (?, ?, ?)  [["created_at", Tue, 31 Mar 2015 06:00:22 UTC +00:00], ["name", ""], ["updated_at", Tue, 31 Mar 2015 06:00:22 UTC +00:00]] 
+11:30:23 DEBUG:   [1m[36m (191.5ms)[0m  [1mCOMMIT[0m 
+11:30:23 INFO: Redirected to https://anytimemoney.ngrok.com/ 
+11:30:23 INFO: Completed 302 Found in 354ms (ActiveRecord: 322.5ms) 
+11:30:23 DEBUG:  
+11:30:23 DEBUG:  
+11:30:23 INFO: Started GET "/" for 127.0.0.1 at 2015-03-31 11:30:23 +0530 
+11:30:23 INFO: Processing by UsersController#index as HTML 
+11:30:23 INFO: Index User info 
+11:30:23 INFO: sample text 
+11:30:23 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+11:30:23 DEBUG:   [1m[35mUser Load (1.2ms)[0m  SELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1 
+11:30:23 INFO:   Rendered users/index.html.erb within layouts/application (1.7ms) 
+11:30:23 INFO: Completed 200 OK in 22ms (Views: 15.3ms | ActiveRecord: 1.2ms) 
+11:30:26 DEBUG:  
+11:30:26 DEBUG:  
+11:30:26 INFO: Started POST "/users/create" for 127.0.0.1 at 2015-03-31 11:30:26 +0530 
+11:30:26 INFO: Processing by UsersController#create as HTML 
+11:30:26 INFO:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"PDg9wgDbcfKxMgf4ldR1i+7AaQXCksehDO4+SUuMkoE=", "account"=>"", "commit"=>"LookUpAccount"} 
+11:30:26 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from create at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:26) 
+11:30:26 DEBUG:   [1m[36mUser Load (1.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (account = '') ORDER BY `users`.`id` ASC LIMIT 1[0m 
+11:30:26 INFO: Redirected to https://anytimemoney.ngrok.com/signup 
+11:30:26 INFO: Completed 302 Found in 6ms (ActiveRecord: 1.2ms) 
+11:30:27 DEBUG:  
+11:30:27 DEBUG:  
+11:30:27 INFO: Started GET "/signup" for 127.0.0.1 at 2015-03-31 11:30:27 +0530 
+11:30:27 INFO: Processing by UsersController#new as HTML 
+11:30:27 INFO: Index the userdetails 
+11:30:27 INFO:   Rendered users/new.html.erb within layouts/application (2.1ms) 
+11:30:27 INFO: Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.0ms) 
+11:31:12 DEBUG:  
+11:31:12 DEBUG:  
+11:31:12 INFO: Started POST "/signup" for 127.0.0.1 at 2015-03-31 11:31:12 +0530 
+11:31:12 INFO: Processing by UsersController#create as HTML 
+11:31:12 INFO:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"PDg9wgDbcfKxMgf4ldR1i+7AaQXCksehDO4+SUuMkoE=", "name"=>"xyz", "account"=>"12345678912", "balance"=>"200", "pin"=>"123456", "commit"=>"SignUp"} 
+11:31:12 DEBUG: Unpermitted parameters: utf8, authenticity_token, commit 
+11:31:12 DEBUG:   [1m[35mSQL (0.7ms)[0m  BEGIN 
+11:31:12 DEBUG:   [1m[36mSQL (2.2ms)[0m  [1mINSERT INTO `users` (`account`, `balance`, `created_at`, `name`, `pin`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["account", 12345678912], ["balance", 200.0], ["created_at", Tue, 31 Mar 2015 06:01:12 UTC +00:00], ["name", "xyz"], ["pin", 123456], ["updated_at", Tue, 31 Mar 2015 06:01:12 UTC +00:00]] 
+11:31:12 ERROR: Mysql::Error: Out of range value for column 'account' at row 1: INSERT INTO `users` (`account`, `balance`, `created_at`, `name`, `pin`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?) 
+11:31:12 DEBUG:   [1m[35m (0.5ms)[0m  ROLLBACK 
+11:31:12 INFO: Completed 500 Internal Server Error in 12ms 
+11:31:12 FATAL: 
+ActiveRecord::StatementInvalid (Mysql::Error: Out of range value for column 'account' at row 1: INSERT INTO `users` (`account`, `balance`, `created_at`, `name`, `pin`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)):
+  app/controllers/users_controller.rb:20:in `create'
+
+ 
+11:31:12 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms) 
+11:31:12 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms) 
+11:31:12 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms) 
+11:31:12 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.7ms) 
+11:32:37 DEBUG:  
+11:32:37 DEBUG:  
+11:32:37 INFO: Started GET "/signup" for 127.0.0.1 at 2015-03-31 11:32:37 +0530 
+11:32:37 INFO: Processing by UsersController#new as HTML 
+11:32:37 INFO: Index the userdetails 
+11:32:37 INFO:   Rendered users/new.html.erb within layouts/application (2.9ms) 
+11:32:37 INFO: Completed 200 OK in 15ms (Views: 12.2ms | ActiveRecord: 0.0ms) 
+11:32:48 DEBUG:  
+11:32:48 DEBUG:  
+11:32:48 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-31 11:32:48 +0530 
+11:32:48 DEBUG:  
+11:32:48 DEBUG:  
+11:32:48 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 11:32:48 +0530 
+11:32:48 DEBUG:  
+11:32:48 DEBUG:  
+11:32:48 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 11:32:48 +0530 
+11:32:48 DEBUG:  
+11:32:48 DEBUG:  
+11:32:48 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 11:32:48 +0530 
+11:32:48 DEBUG:  
+11:32:48 DEBUG:  
+11:32:48 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 11:32:48 +0530 
+11:32:48 DEBUG:  
+11:32:48 DEBUG:  
+11:32:48 INFO: Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-31 11:32:48 +0530 
+11:32:48 DEBUG:  
+11:32:48 DEBUG:  
+11:32:48 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 11:32:48 +0530 
+11:32:59 DEBUG:  
+11:32:59 DEBUG:  
+11:32:59 INFO: Started GET "/" for 127.0.0.1 at 2015-03-31 11:32:59 +0530 
+11:32:59 INFO: Processing by UsersController#index as HTML 
+11:32:59 INFO: Index User info 
+11:32:59 INFO: sample text 
+11:32:59 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+11:32:59 DEBUG:   [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1[0m 
+11:32:59 INFO:   Rendered users/index.html.erb within layouts/application (0.6ms) 
+11:32:59 INFO: Completed 200 OK in 16ms (Views: 9.6ms | ActiveRecord: 0.5ms) 
+11:32:59 DEBUG:  
+11:32:59 DEBUG:  
+11:32:59 INFO: Started GET "/" for 127.0.0.1 at 2015-03-31 11:32:59 +0530 
+11:32:59 INFO: Processing by UsersController#index as HTML 
+11:32:59 INFO: Index User info 
+11:32:59 INFO: sample text 
+11:32:59 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+11:32:59 DEBUG:   [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1 
+11:32:59 INFO:   Rendered users/index.html.erb within layouts/application (1.4ms) 
+11:32:59 INFO: Completed 200 OK in 16ms (Views: 10.6ms | ActiveRecord: 0.5ms) 
+11:33:08 DEBUG:  
+11:33:08 DEBUG:  
+11:33:08 INFO: Started GET "/" for 127.0.0.1 at 2015-03-31 11:33:08 +0530 
+11:33:08 INFO: Processing by UsersController#index as HTML 
+11:33:08 INFO: Index User info 
+11:33:08 INFO: sample text 
+11:33:08 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+11:33:08 DEBUG:   [1m[36mUser Load (0.6ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1[0m 
+11:33:08 INFO:   Rendered users/index.html.erb within layouts/application (1.4ms) 
+11:33:08 INFO: Completed 200 OK in 15ms (Views: 10.8ms | ActiveRecord: 0.6ms) 
+11:33:09 DEBUG:  
+11:33:09 DEBUG:  
+11:33:09 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 11:33:09 +0530 
+11:33:09 DEBUG:  
+11:33:09 DEBUG:  
+11:33:09 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 11:33:09 +0530 
+11:33:09 DEBUG:  
+11:33:09 DEBUG:  
+11:33:09 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-31 11:33:09 +0530 
+11:33:09 DEBUG:  
+11:33:09 DEBUG:  
+11:33:09 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 11:33:09 +0530 
+11:33:09 DEBUG:   [1m[36mActiveRecord::SchemaMigration Load (3.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m 
+11:33:09 DEBUG:  
+11:33:09 DEBUG:  
+11:33:09 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 11:33:09 +0530 
+11:33:09 DEBUG:  
+11:33:09 DEBUG:  
+11:33:09 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 11:33:09 +0530 
+11:33:10 DEBUG:  
+11:33:10 DEBUG:  
+11:33:10 INFO: Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-31 11:33:10 +0530 
+11:33:18 DEBUG:  
+11:33:18 DEBUG:  
+11:33:18 INFO: Started POST "/users/create" for 127.0.0.1 at 2015-03-31 11:33:18 +0530 
+11:33:18 INFO: Processing by UsersController#create as HTML 
+11:33:18 INFO:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"PDg9wgDbcfKxMgf4ldR1i+7AaQXCksehDO4+SUuMkoE=", "account"=>"1206", "commit"=>"LookUpAccount"} 
+11:33:18 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from create at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:26) 
+11:33:18 DEBUG:   [1m[35mUser Load (1.0ms)[0m  SELECT `users`.* FROM `users` WHERE (account = '1206') ORDER BY `users`.`id` ASC LIMIT 1 
+11:33:18 INFO: Redirected to https://anytimemoney.ngrok.com/pin_check 
+11:33:18 INFO: Completed 302 Found in 6ms (ActiveRecord: 1.0ms) 
+11:33:19 DEBUG:  
+11:33:19 DEBUG:  
+11:33:19 INFO: Started GET "/pin_check" for 127.0.0.1 at 2015-03-31 11:33:19 +0530 
+11:33:19 INFO: Processing by UsersController#create as HTML 
+11:33:19 INFO:   Rendered users/create.html.erb within layouts/application (0.5ms) 
+11:33:19 INFO: Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms) 
+11:33:20 DEBUG:  
+11:33:20 DEBUG:  
+11:33:20 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 11:33:20 +0530 
+11:33:20 DEBUG:  
+11:33:20 DEBUG:  
+11:33:20 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-31 11:33:20 +0530 
+11:33:20 DEBUG:  
+11:33:20 DEBUG:  
+11:33:20 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 11:33:20 +0530 
+11:33:20 DEBUG:  
+11:33:20 DEBUG:  
+11:33:20 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 11:33:20 +0530 
+11:33:20 DEBUG:  
+11:33:20 DEBUG:  
+11:33:20 INFO: Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-31 11:33:20 +0530 
+11:33:20 DEBUG:  
+11:33:20 DEBUG:  
+11:33:20 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 11:33:20 +0530 
+11:33:20 DEBUG:  
+11:33:20 DEBUG:  
+11:33:20 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 11:33:20 +0530 
+11:33:26 DEBUG:  
+11:33:26 DEBUG:  
+11:33:26 INFO: Started POST "/users/create" for 127.0.0.1 at 2015-03-31 11:33:26 +0530 
+11:33:26 INFO: Processing by UsersController#create as HTML 
+11:33:26 INFO:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"PDg9wgDbcfKxMgf4ldR1i+7AaQXCksehDO4+SUuMkoE=", "pin"=>"1206", "commit"=>"CheckPin"} 
+11:33:26 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from create at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:35) 
+11:33:26 DEBUG:   [1m[36mUser Load (1.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (pin = '1206') ORDER BY `users`.`id` ASC LIMIT 1[0m 
+11:33:26 INFO: Redirected to https://anytimemoney.ngrok.com/home 
+11:33:26 INFO: Completed 302 Found in 6ms (ActiveRecord: 1.1ms) 
+11:33:27 DEBUG:  
+11:33:27 DEBUG:  
+11:33:27 INFO: Started GET "/home" for 127.0.0.1 at 2015-03-31 11:33:27 +0530 
+11:33:27 INFO: Processing by UsersController#home as HTML 
+11:33:27 DEBUG:   [1m[35mUser Load (1.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 1]] 
+11:33:27 INFO:   Rendered users/home.html.erb within layouts/application (5.0ms) 
+11:33:27 INFO: Completed 200 OK in 90ms (Views: 84.3ms | ActiveRecord: 1.6ms) 
+11:33:28 DEBUG:  
+11:33:28 DEBUG:  
+11:33:28 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 11:33:28 +0530 
+11:33:31 DEBUG:  
+11:33:31 DEBUG:  
+11:33:31 DEBUG:  
+11:33:31 DEBUG:  
+11:33:31 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 11:33:31 +0530 
+11:33:31 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 11:33:31 +0530 
+11:33:31 DEBUG:  
+11:33:31 DEBUG:  
+11:33:31 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-31 11:33:31 +0530 
+11:33:31 DEBUG:  
+11:33:31 DEBUG:  
+11:33:31 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 11:33:31 +0530 
+11:33:31 DEBUG:  
+11:33:31 DEBUG:  
+11:33:31 INFO: Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-31 11:33:31 +0530 
+11:33:31 DEBUG:  
+11:33:31 DEBUG:  
+11:33:31 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 11:33:31 +0530 
+11:34:31 DEBUG:  
+11:34:31 DEBUG:  
+11:34:31 INFO: Started POST "/users/withdraw_money" for 127.0.0.1 at 2015-03-31 11:34:31 +0530 
+11:34:31 INFO: Processing by UsersController#withdraw_money as HTML 
+11:34:31 INFO:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"PDg9wgDbcfKxMgf4ldR1i+7AaQXCksehDO4+SUuMkoE=", "balance"=>"200", "commit"=>"WithDraw"} 
+11:34:31 DEBUG:   [1m[36mUser Load (0.8ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]] 
+11:34:31 DEBUG:   [1m[35mSQL (0.4ms)[0m  BEGIN 
+11:34:31 DEBUG:   [1m[36mSQL (143.4ms)[0m  [1mUPDATE `users` SET `balance` = ?, `updated_at` = ? WHERE `users`.`id` = 1[0m  [["balance", 1262348088.0], ["updated_at", Tue, 31 Mar 2015 06:04:31 UTC +00:00]] 
+11:34:31 DEBUG:   [1m[35m (178.7ms)[0m  COMMIT 
+11:34:31 INFO: Redirected to https://anytimemoney.ngrok.com/withdrw_succ 
+11:34:31 INFO: Completed 302 Found in 340ms (ActiveRecord: 323.3ms) 
+11:34:42 DEBUG:  
+11:34:42 DEBUG:  
+11:34:42 INFO: Started GET "/withdrw_succ" for 127.0.0.1 at 2015-03-31 11:34:42 +0530 
+11:34:42 INFO: Processing by UsersController#withdrw_succ as HTML 
+11:34:42 DEBUG:   [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]] 
+11:34:42 INFO:   Rendered users/withdrw_succ.html.erb within layouts/application (1.5ms) 
+11:34:42 INFO: Completed 200 OK in 28ms (Views: 25.0ms | ActiveRecord: 0.5ms) 
+11:34:43 DEBUG:  
+11:34:43 DEBUG:  
+11:34:43 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 11:34:43 +0530 
+11:34:53 DEBUG:  
+11:34:53 DEBUG:  
+11:34:53 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-31 11:34:53 +0530 
+11:34:53 DEBUG:  
+11:34:53 DEBUG:  
+11:34:53 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 11:34:53 +0530 
+11:34:53 DEBUG:  
+11:34:53 DEBUG:  
+11:34:53 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 11:34:53 +0530 
+11:34:53 DEBUG:  
+11:34:53 DEBUG:  
+11:34:53 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 11:34:53 +0530 
+11:34:53 DEBUG:  
+11:34:53 DEBUG:  
+11:34:53 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 11:34:53 +0530 
+11:34:53 DEBUG:  
+11:34:53 DEBUG:  
+11:34:53 INFO: Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-31 11:34:53 +0530 
+11:35:03 DEBUG:  
+11:35:03 DEBUG:  
+11:35:03 INFO: Started GET "/home" for 127.0.0.1 at 2015-03-31 11:35:03 +0530 
+11:35:03 INFO: Processing by UsersController#home as HTML 
+11:35:03 DEBUG:   [1m[35mUser Load (0.7ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 1]] 
+11:35:03 INFO:   Rendered users/home.html.erb within layouts/application (2.8ms) 
+11:35:03 INFO: Completed 200 OK in 16ms (Views: 11.2ms | ActiveRecord: 0.7ms) 
+11:35:10 DEBUG:  
+11:35:10 DEBUG:  
+11:35:10 INFO: Started POST "/users/deposite_money" for 127.0.0.1 at 2015-03-31 11:35:10 +0530 
+11:35:10 INFO: Processing by UsersController#deposite_money as HTML 
+11:35:10 INFO:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"PDg9wgDbcfKxMgf4ldR1i+7AaQXCksehDO4+SUuMkoE=", "balance"=>"500", "commit"=>"Deposite"} 
+11:35:10 DEBUG:   [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]] 
+11:35:10 DEBUG:   [1m[35mSQL (0.2ms)[0m  BEGIN 
+11:35:10 DEBUG:   [1m[36mSQL (1.0ms)[0m  [1mUPDATE `users` SET `balance` = ?, `updated_at` = ? WHERE `users`.`id` = 1[0m  [["balance", 1262348532.0], ["updated_at", Tue, 31 Mar 2015 06:05:10 UTC +00:00]] 
+11:35:10 DEBUG:   [1m[35m (135.7ms)[0m  COMMIT 
+11:35:10 INFO: Redirected to https://anytimemoney.ngrok.com/deposite_succ 
+11:35:10 INFO: Completed 302 Found in 145ms (ActiveRecord: 137.3ms) 
+11:35:11 DEBUG:  
+11:35:11 DEBUG:  
+11:35:11 INFO: Started GET "/deposite_succ" for 127.0.0.1 at 2015-03-31 11:35:11 +0530 
+11:35:11 INFO: Processing by UsersController#deposite_succ as HTML 
+11:35:11 DEBUG:   [1m[36mUser Load (1.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]] 
+11:35:11 INFO:   Rendered users/deposite_succ.html.erb within layouts/application (2.4ms) 
+11:35:11 INFO: Completed 200 OK in 20ms (Views: 15.5ms | ActiveRecord: 1.0ms) 
+11:35:12 DEBUG:  
+11:35:12 DEBUG:  
+11:35:12 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 11:35:12 +0530 
+11:35:12 DEBUG:  
+11:35:12 DEBUG:  
+11:35:12 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-31 11:35:12 +0530 
+11:35:12 DEBUG:  
+11:35:12 DEBUG:  
+11:35:12 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 11:35:12 +0530 
+11:35:12 DEBUG:  
+11:35:12 DEBUG:  
+11:35:12 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 11:35:12 +0530 
+11:35:12 DEBUG:  
+11:35:12 DEBUG:  
+11:35:12 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 11:35:12 +0530 
+11:35:12 DEBUG:  
+11:35:12 DEBUG:  
+11:35:12 INFO: Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-31 11:35:12 +0530 
+11:35:21 DEBUG:  
+11:35:21 DEBUG:  
+11:35:21 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 11:35:21 +0530 
+11:35:28 DEBUG:  
+11:35:28 DEBUG:  
+11:35:28 INFO: Started GET "/home" for 127.0.0.1 at 2015-03-31 11:35:28 +0530 
+11:35:28 INFO: Processing by UsersController#home as HTML 
+11:35:28 DEBUG:   [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 1]] 
+11:35:28 INFO:   Rendered users/home.html.erb within layouts/application (1.0ms) 
+11:35:28 INFO: Completed 200 OK in 14ms (Views: 9.4ms | ActiveRecord: 0.6ms) 
+11:36:08 DEBUG:  
+11:36:08 DEBUG:  
+11:36:08 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-31 11:36:08 +0530 
+11:36:08 DEBUG:  
+11:36:08 DEBUG:  
+11:36:08 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 11:36:08 +0530 
+11:43:30 DEBUG:  
+11:43:30 DEBUG:  
+11:43:30 INFO: Started POST "/users/create" for 127.0.0.1 at 2015-03-31 11:43:30 +0530 
+11:43:30 INFO: Processing by UsersController#create as HTML 
+11:43:30 INFO:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"1d1SytVTQedkRAqVjfpFRKoD3TtDcEDR+12xl0SU4cA=", "pin"=>"1206", "commit"=>"CheckPin"} 
+11:43:30 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from create at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:35) 
+11:43:30 DEBUG:   [1m[36mUser Load (1.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (pin = '1206') ORDER BY `users`.`id` ASC LIMIT 1[0m 
+11:43:30 INFO: Redirected to https://anytimemoney.ngrok.com/home 
+11:43:30 INFO: Completed 302 Found in 27ms (ActiveRecord: 3.0ms) 
+11:43:41 DEBUG:  
+11:43:41 DEBUG:  
+11:43:41 INFO: Started GET "/home" for 127.0.0.1 at 2015-03-31 11:43:41 +0530 
+11:43:41 INFO: Processing by UsersController#home as HTML 
+11:43:41 DEBUG:   [1m[35mUser Load (1.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 1]] 
+11:43:41 INFO:   Rendered users/home.html.erb within layouts/application (5.2ms) 
+11:43:41 INFO: Completed 200 OK in 21ms (Views: 14.8ms | ActiveRecord: 1.2ms) 
+11:43:41 DEBUG:  
+11:43:41 DEBUG:  
+11:43:41 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 11:43:41 +0530 
+11:43:52 DEBUG:  
+11:43:52 DEBUG:  
+11:43:52 INFO: Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-31 11:43:52 +0530 
+11:43:52 DEBUG:  
+11:43:52 DEBUG:  
+11:43:52 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 11:43:52 +0530 
+11:43:52 DEBUG:  
+11:43:52 DEBUG:  
+11:43:52 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-31 11:43:52 +0530 
+11:43:52 DEBUG:  
+11:43:52 DEBUG:  
+11:43:52 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 11:43:52 +0530 
+11:43:52 DEBUG:  
+11:43:52 DEBUG:  
+11:43:52 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 11:43:52 +0530 
+11:43:52 DEBUG:  
+11:43:52 DEBUG:  
+11:43:52 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 11:43:52 +0530 
+11:44:06 DEBUG:  
+11:44:06 DEBUG:  
+11:44:06 INFO: Started POST "/users/withdraw_money" for 127.0.0.1 at 2015-03-31 11:44:06 +0530 
+11:44:06 INFO: Processing by UsersController#withdraw_money as HTML 
+11:44:06 INFO:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"1d1SytVTQedkRAqVjfpFRKoD3TtDcEDR+12xl0SU4cA=", "balance"=>"1262348544", "commit"=>"WithDraw"} 
+11:44:06 DEBUG:   [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]] 
+11:44:06 DEBUG:   [1m[35mSQL (0.2ms)[0m  BEGIN 
+11:44:06 DEBUG:   [1m[36mSQL (2.6ms)[0m  [1mUPDATE `users` SET `balance` = ?, `updated_at` = ? WHERE `users`.`id` = 1[0m  [["balance", 0.0], ["updated_at", Tue, 31 Mar 2015 06:14:06 UTC +00:00]] 
+11:44:06 DEBUG:   [1m[35m (280.9ms)[0m  COMMIT 
+11:44:06 INFO: Redirected to https://anytimemoney.ngrok.com/withdrw_succ 
+11:44:06 INFO: Completed 302 Found in 300ms (ActiveRecord: 284.2ms) 
+11:44:07 DEBUG:  
+11:44:07 DEBUG:  
+11:44:07 INFO: Started GET "/withdrw_succ" for 127.0.0.1 at 2015-03-31 11:44:07 +0530 
+11:44:07 INFO: Processing by UsersController#withdrw_succ as HTML 
+11:44:07 DEBUG:   [1m[36mUser Load (0.9ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]] 
+11:44:07 INFO:   Rendered users/withdrw_succ.html.erb within layouts/application (2.4ms) 
+11:44:07 INFO: Completed 200 OK in 24ms (Views: 17.8ms | ActiveRecord: 0.9ms) 
+11:44:07 DEBUG:  
+11:44:07 DEBUG:  
+11:44:07 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-31 11:44:07 +0530 
+11:44:07 DEBUG:  
+11:44:07 DEBUG:  
+11:44:07 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 11:44:07 +0530 
+11:44:07 DEBUG:  
+11:44:07 DEBUG:  
+11:44:07 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 11:44:07 +0530 
+11:44:07 DEBUG:  
+11:44:07 DEBUG:  
+11:44:07 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 11:44:07 +0530 
+11:44:07 DEBUG:  
+11:44:07 DEBUG:  
+11:44:07 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 11:44:07 +0530 
+11:44:07 DEBUG:  
+11:44:07 DEBUG:  
+11:44:07 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 11:44:07 +0530 
+11:44:07 DEBUG:   [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m 
+11:44:17 DEBUG:  
+11:44:17 DEBUG:  
+11:44:17 INFO: Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-31 11:44:17 +0530 
+11:44:32 DEBUG:  
+11:44:32 DEBUG:  
+11:44:32 INFO: Started GET "/home" for 127.0.0.1 at 2015-03-31 11:44:32 +0530 
+11:44:32 INFO: Processing by UsersController#home as HTML 
+11:44:32 DEBUG:   [1m[35mUser Load (1.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 1]] 
+11:44:32 INFO:   Rendered users/home.html.erb within layouts/application (4.7ms) 
+11:44:32 INFO: Completed 200 OK in 23ms (Views: 16.3ms | ActiveRecord: 1.6ms) 
+11:44:55 DEBUG:  
+11:44:55 DEBUG:  
+11:44:55 INFO: Started POST "/users/deposite_money" for 127.0.0.1 at 2015-03-31 11:44:55 +0530 
+11:44:55 INFO: Processing by UsersController#deposite_money as HTML 
+11:44:55 INFO:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"1d1SytVTQedkRAqVjfpFRKoD3TtDcEDR+12xl0SU4cA=", "balance"=>"50000000", "commit"=>"Deposite"} 
+11:44:55 DEBUG:   [1m[36mUser Load (0.7ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]] 
+11:44:55 DEBUG:   [1m[35mSQL (0.4ms)[0m  BEGIN 
+11:44:55 DEBUG:   [1m[36mSQL (1.2ms)[0m  [1mUPDATE `users` SET `balance` = ?, `updated_at` = ? WHERE `users`.`id` = 1[0m  [["balance", 50000000.0], ["updated_at", Tue, 31 Mar 2015 06:14:55 UTC +00:00]] 
+11:44:55 DEBUG:   [1m[35m (188.6ms)[0m  COMMIT 
+11:44:55 INFO: Redirected to https://anytimemoney.ngrok.com/deposite_succ 
+11:44:55 INFO: Completed 302 Found in 202ms (ActiveRecord: 190.8ms) 
+11:44:56 DEBUG:  
+11:44:56 DEBUG:  
+11:44:56 INFO: Started GET "/deposite_succ" for 127.0.0.1 at 2015-03-31 11:44:56 +0530 
+11:44:56 INFO: Processing by UsersController#deposite_succ as HTML 
+11:44:56 DEBUG:   [1m[36mUser Load (1.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]] 
+11:44:56 INFO:   Rendered users/deposite_succ.html.erb within layouts/application (1.7ms) 
+11:44:56 INFO: Completed 200 OK in 18ms (Views: 13.8ms | ActiveRecord: 1.0ms) 
+11:44:56 DEBUG:  
+11:44:56 DEBUG:  
+11:44:56 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-31 11:44:56 +0530 
+11:44:56 DEBUG:  
+11:44:56 DEBUG:  
+11:44:56 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 11:44:56 +0530 
+11:44:56 DEBUG:  
+11:44:56 DEBUG:  
+11:44:56 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 11:44:56 +0530 
+11:44:56 DEBUG:  
+11:44:56 DEBUG:  
+11:44:56 INFO: Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-31 11:44:56 +0530 
+11:44:56 DEBUG:  
+11:44:56 DEBUG:  
+11:44:56 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 11:44:56 +0530 
+11:44:56 DEBUG:  
+11:44:56 DEBUG:  
+11:44:56 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 11:44:56 +0530 
+11:44:56 DEBUG:  
+11:44:56 DEBUG:  
+11:44:56 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 11:44:56 +0530 
+11:44:56 DEBUG:   [1m[36mActiveRecord::SchemaMigration Load (2.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m 
+11:45:06 DEBUG:  
+11:45:06 DEBUG:  
+11:45:06 INFO: Started GET "/home" for 127.0.0.1 at 2015-03-31 11:45:06 +0530 
+11:45:06 INFO: Processing by UsersController#home as HTML 
+11:45:06 DEBUG:   [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 1]] 
+11:45:06 INFO:   Rendered users/home.html.erb within layouts/application (2.6ms) 
+11:45:06 INFO: Completed 200 OK in 17ms (Views: 12.6ms | ActiveRecord: 0.6ms) 
+11:45:47 DEBUG:  
+11:45:47 DEBUG:  
+11:45:47 INFO: Started GET "/" for 127.0.0.1 at 2015-03-31 11:45:47 +0530 
+11:45:47 INFO: Processing by UsersController#index as HTML 
+11:45:47 INFO: Index User info 
+11:45:47 INFO: sample text 
+11:45:48 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+11:45:48 DEBUG:   [1m[36mUser Load (1.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1[0m 
+11:45:48 INFO:   Rendered users/index.html.erb within layouts/application (3.3ms) 
+11:45:48 INFO: Completed 200 OK in 24ms (Views: 17.4ms | ActiveRecord: 1.1ms) 
+11:45:48 DEBUG:  
+11:45:48 DEBUG:  
+11:45:48 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 11:45:48 +0530 
+11:45:48 DEBUG:  
+11:45:48 DEBUG:  
+11:45:48 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-31 11:45:48 +0530 
+11:45:48 DEBUG:  
+11:45:48 DEBUG:  
+11:45:48 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 11:45:48 +0530 
+11:45:48 DEBUG:  
+11:45:48 DEBUG:  
+11:45:48 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 11:45:48 +0530 
+11:45:48 DEBUG:  
+11:45:48 DEBUG:  
+11:45:48 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 11:45:48 +0530 
+11:45:48 DEBUG:  
+11:45:48 DEBUG:  
+11:45:48 INFO: Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-31 11:45:48 +0530 
+11:45:48 DEBUG:  
+11:45:48 DEBUG:  
+11:45:48 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 11:45:48 +0530 
+11:45:48 DEBUG:   [1m[36mActiveRecord::SchemaMigration Load (2.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m 
+11:45:58 DEBUG:  
+11:45:58 DEBUG:  
+11:45:58 INFO: Started GET "/" for 127.0.0.1 at 2015-03-31 11:45:58 +0530 
+11:45:58 INFO: Processing by UsersController#index as HTML 
+11:45:58 INFO: Index User info 
+11:45:58 INFO: sample text 
+11:45:58 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+11:45:58 DEBUG:   [1m[35mUser Load (0.7ms)[0m  SELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1 
+11:45:58 INFO:   Rendered users/index.html.erb within layouts/application (0.8ms) 
+11:45:58 INFO: Completed 200 OK in 15ms (Views: 9.0ms | ActiveRecord: 0.7ms) 
+11:45:58 DEBUG:  
+11:45:58 DEBUG:  
+11:45:58 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 11:45:58 +0530 
+11:45:58 DEBUG:  
+11:45:58 DEBUG:  
+11:45:58 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 11:45:58 +0530 
+11:45:58 DEBUG:  
+11:45:58 DEBUG:  
+11:45:58 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 11:45:58 +0530 
+11:45:58 DEBUG:  
+11:45:58 DEBUG:  
+11:45:58 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 11:45:58 +0530 
+12:59:00 DEBUG:  
+12:59:00 DEBUG:  
+12:59:00 INFO: Started GET "/home" for 127.0.0.1 at 2015-03-31 12:59:00 +0530 
+12:59:00 INFO: Processing by UsersController#home as HTML 
+12:59:01 DEBUG:   [1m[35mUser Load (1.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 1]] 
+12:59:01 INFO:   Rendered users/home.html.erb within layouts/application (6.9ms) 
+12:59:01 INFO: Completed 200 OK in 158ms (Views: 100.7ms | ActiveRecord: 4.7ms) 
+12:59:03 DEBUG:  
+12:59:03 DEBUG:  
+12:59:03 INFO: Started GET "/home" for 127.0.0.1 at 2015-03-31 12:59:03 +0530 
+12:59:03 INFO: Processing by UsersController#home as HTML 
+12:59:03 DEBUG:   [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]] 
+12:59:03 INFO:   Rendered users/home.html.erb within layouts/application (1.5ms) 
+12:59:03 INFO: Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 0.4ms) 
+12:59:04 DEBUG:  
+12:59:04 DEBUG:  
+12:59:04 INFO: Started GET "/home" for 127.0.0.1 at 2015-03-31 12:59:04 +0530 
+12:59:04 INFO: Processing by UsersController#home as HTML 
+12:59:04 DEBUG:   [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", 1]] 
+12:59:04 INFO:   Rendered users/home.html.erb within layouts/application (2.2ms) 
+12:59:04 INFO: Completed 200 OK in 15ms (Views: 11.4ms | ActiveRecord: 0.5ms) 
+12:59:05 DEBUG:  
+12:59:05 DEBUG:  
+12:59:05 INFO: Started GET "/home" for 127.0.0.1 at 2015-03-31 12:59:05 +0530 
+12:59:05 INFO: Processing by UsersController#home as HTML 
+12:59:05 DEBUG:   [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", 1]] 
+12:59:05 INFO:   Rendered users/home.html.erb within layouts/application (2.2ms) 
+12:59:05 INFO: Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.4ms) 
+14:37:25 DEBUG:  
+14:37:25 DEBUG:  
+14:37:25 INFO: Started GET "/" for 127.0.0.1 at 2015-03-31 14:37:25 +0530 
+14:37:25 INFO: Processing by UsersController#index as HTML 
+14:37:25 INFO: Index User info 
+14:37:25 INFO: sample text 
+14:37:25 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+14:37:25 DEBUG:   [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1 
+14:37:25 INFO:   Rendered users/index.html.erb within layouts/application (2.3ms) 
+14:37:25 INFO: Completed 200 OK in 19ms (Views: 11.6ms | ActiveRecord: 0.6ms) 
+14:37:25 DEBUG:  
+14:37:25 DEBUG:  
+14:37:25 INFO: Started GET "/" for 49.206.32.156 at 2015-03-31 14:37:25 +0530 
+14:37:25 INFO: Processing by UsersController#index as HTML 
+14:37:25 INFO: Index User info 
+14:37:25 INFO: sample text 
+14:37:25 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+14:37:25 DEBUG:   [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1[0m 
+14:37:25 INFO:   Rendered users/index.html.erb within layouts/application (0.9ms) 
+14:37:25 INFO: Completed 200 OK in 13ms (Views: 9.5ms | ActiveRecord: 0.3ms) 
+14:55:07 DEBUG:  
+14:55:07 DEBUG:  
+14:55:07 INFO: Started GET "/" for 127.0.0.1 at 2015-03-31 14:55:07 +0530 
+14:55:08 DEBUG:   [1m[36mActiveRecord::SchemaMigration Load (3.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m 
+14:55:08 INFO: Processing by UsersController#index as HTML 
+14:55:08 INFO: Index User info 
+14:55:08 INFO: sample text 
+14:55:08 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+14:55:08 DEBUG:   [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1 
+14:55:08 INFO:   Rendered users/index.html.erb within layouts/application (7.0ms) 
+14:55:08 INFO: Completed 200 OK in 253ms (Views: 171.7ms | ActiveRecord: 1.6ms) 
+16:02:50 DEBUG:  
+16:02:50 DEBUG:  
+16:02:50 INFO: Started GET "/" for 49.206.32.156 at 2015-03-31 16:02:50 +0530 
+16:02:50 INFO: Processing by UsersController#index as HTML 
+16:02:50 INFO: Index User info 
+16:02:50 INFO: sample text 
+16:02:50 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+16:02:50 DEBUG:   [1m[36mUser Load (59.8ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1[0m 
+16:02:50 INFO:   Rendered users/index.html.erb within layouts/application (2.0ms) 
+16:02:50 INFO: Completed 200 OK in 96ms (Views: 30.2ms | ActiveRecord: 59.8ms) 
+18:35:47 DEBUG:  
+18:35:47 DEBUG:  
+18:35:47 INFO: Started GET "/" for 49.206.32.156 at 2015-03-31 18:35:47 +0530 
+18:35:48 INFO: Processing by UsersController#index as HTML 
+18:35:48 INFO: Index User info 
+18:35:48 INFO: sample text 
+18:35:48 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from index at /home/verexo/git/anytimemoney/app/controllers/users_controller.rb:6) 
+18:35:48 DEBUG:   [1m[35mUser Load (29.4ms)[0m  SELECT `users`.* FROM `users` WHERE (account = NULL) ORDER BY `users`.`id` ASC LIMIT 1 
+18:35:48 INFO:   Rendered users/index.html.erb within layouts/application (0.8ms) 
+18:35:48 INFO: Completed 200 OK in 266ms (Views: 232.6ms | ActiveRecord: 29.4ms) 

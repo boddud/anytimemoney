@@ -1,0 +1,11 @@
+<h1> Welcome to X Y Z Bank Pvt Ltd</h1>
+<%= link_to "SignUp", signup_path, :class => "dropdown-toggle", :data => {:toggle=>"dropdown"} %><br />
+
+<%= form_tag('/users/create')  do   %>
+<p>
+	Account Number 	<%= text_field_tag 'account' %><br />
+	
+    
+</p>
+ <p class="button"><%= submit_tag "LookUpAccount" %></p>
+<% end %>

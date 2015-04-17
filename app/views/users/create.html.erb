@@ -1,0 +1,10 @@
+<h1 >LookUp Pin</h1>
+
+<%= form_tag('/users/create')  do   %>
+<p>
+	
+	    Pin Number 		<%= password_field_tag 'pin'%>
+    
+</p>
+ <p class="button"><%= submit_tag "CheckPin" %></p>
+<% end %>

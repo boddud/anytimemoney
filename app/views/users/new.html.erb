@@ -1,0 +1,24 @@
+<h1>Sign Up</h1>
+
+<%= form_for('/users/create') do  %>
+  
+  <p>
+	Name <br />
+    <%= text_field_tag 'name' %>
+</p>
+<p>
+	Account<br />
+    <%= text_field_tag 'account' %>
+</p>
+<p>
+	Balance<br />
+    <%= text_field_tag 'balance' %>
+</p>
+<p>
+    Pin <br />
+    <%= password_field_tag 'pin'%>
+  </p>
+ <p class="button"><%= submit_tag "SignUp" %></p>
+<% end %>
+
+<%= link_to "Back", root_url, :class => "dropdown-toggle", :data => {:toggle=>"dropdown"} %>

@@ -1,0 +1,31 @@
+<h1>X Y Z Bank Pvt Ltd</h1>
+<table border="1">
+	<tr>
+		<th>Account Number</th>
+		<th>Name</th>
+		<th>Current Balance</th>
+	</tr>
+	<tr>
+		<td><%= @user.account %></td>
+		<td><%= @user.name %></td>
+		<td><%= @user.balance %></td>
+	</tr>
+</table>
+<%= form_tag('users/withdraw_money')  do   %>
+<h3 >Withdraw Money</h3>
+<p>
+	Enter Emount  <%= text_field_tag 'balance' %><br />
+    
+</p>
+ <p class="button"><%= submit_tag "WithDraw" %></p>
+<% end %>
+<%= form_tag('users/deposite_money')  do   %>
+<h3>Deposite  Money</h3>
+<p>
+	Enter Emount  <%= text_field_tag 'balance' %><br />
+    
+</p>
+ <p class="button"><%= submit_tag "Deposite" %></p>
+<% end %>
+<!-- <%= link_to "Show Balance", show_path, :class => "dropdown-toggle", :data => {:toggle=>"dropdown"} %><br /><br /><br /> -->
+<%= link_to "Log Out", logout_path, :class => "dropdown-toggle", :data => {:toggle=>"dropdown"} %><br /><br /><br />

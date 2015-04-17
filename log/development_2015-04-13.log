@@ -1,0 +1,263 @@
+12:14:34 DEBUG:  
+12:14:34 DEBUG:  
+12:14:34 INFO: Started GET "/quadone_new/wp-content/uploads/2014/02/new-blue.jpg" for 127.0.0.1 at 2015-04-13 12:14:34 +0530 
+12:14:34 DEBUG:   [1m[36mActiveRecord::SchemaMigration Load (32.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m 
+12:14:34 FATAL: 
+ActionController::RoutingError (No route matches [GET] "/quadone_new/wp-content/uploads/2014/02/new-blue.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  passenger (5.0.5) lib/phusion_passenger/rack/thread_handler_extension.rb:85:in `process_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  passenger (5.0.5) lib/phusion_passenger/request_handler.rb:414:in `block (3 levels) in start_threads'
+  passenger (5.0.5) lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+ 
+12:14:34 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms) 
+12:14:34 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (59.0ms) 
+12:14:34 DEBUG:  
+12:14:34 DEBUG:  
+12:14:34 INFO: Started GET "/quadone_new/wp-content/uploads/2014/03/new-purple.jpg" for 127.0.0.1 at 2015-04-13 12:14:34 +0530 
+12:14:34 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.8ms) 
+12:14:34 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (126.7ms) 
+12:14:34 DEBUG:  
+12:14:34 DEBUG:  
+12:14:34 INFO: Started GET "/quadone_new/wp-content/uploads/2014/03/mainbanner1.jpg" for 127.0.0.1 at 2015-04-13 12:14:34 +0530 
+12:14:34 FATAL: 
+ActionController::RoutingError (No route matches [GET] "/quadone_new/wp-content/uploads/2014/03/mainbanner1.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  passenger (5.0.5) lib/phusion_passenger/rack/thread_handler_extension.rb:85:in `process_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  passenger (5.0.5) lib/phusion_passenger/request_handler.rb:414:in `block (3 levels) in start_threads'
+  passenger (5.0.5) lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+ 
+12:14:34 DEBUG:   [1m[36mActiveRecord::SchemaMigration Load (2.9ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m 
+12:14:34 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms) 
+12:14:34 FATAL: 
+ActionController::RoutingError (No route matches [GET] "/quadone_new/wp-content/uploads/2014/03/new-purple.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  passenger (5.0.5) lib/phusion_passenger/rack/thread_handler_extension.rb:85:in `process_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  passenger (5.0.5) lib/phusion_passenger/request_handler.rb:414:in `block (3 levels) in start_threads'
+  passenger (5.0.5) lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+ 
+12:14:34 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.2ms) 
+12:14:34 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms) 
+12:14:34 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.4ms) 
+12:14:34 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (49.8ms) 
+12:14:34 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (86.7ms) 
+12:14:34 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.7ms) 
+12:14:34 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (168.3ms) 
+12:14:40 DEBUG:  
+12:14:40 DEBUG:  
+12:14:40 INFO: Started GET "/quadone_new/wp-content/uploads/2014/03/new-purple.jpg" for 127.0.0.1 at 2015-04-13 12:14:40 +0530 
+12:14:40 DEBUG:  
+12:14:40 DEBUG:  
+12:14:40 INFO: Started GET "/quadone_new/wp-content/uploads/2014/02/new-blue.jpg" for 127.0.0.1 at 2015-04-13 12:14:40 +0530 
+12:14:40 FATAL: 
+ActionController::RoutingError (No route matches [GET] "/quadone_new/wp-content/uploads/2014/03/new-purple.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  passenger (5.0.5) lib/phusion_passenger/rack/thread_handler_extension.rb:85:in `process_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  passenger (5.0.5) lib/phusion_passenger/request_handler.rb:414:in `block (3 levels) in start_threads'
+  passenger (5.0.5) lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+ 
+12:14:40 FATAL: 
+ActionController::RoutingError (No route matches [GET] "/quadone_new/wp-content/uploads/2014/02/new-blue.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  passenger (5.0.5) lib/phusion_passenger/rack/thread_handler_extension.rb:85:in `process_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  passenger (5.0.5) lib/phusion_passenger/request_handler.rb:414:in `block (3 levels) in start_threads'
+  passenger (5.0.5) lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+ 
+12:14:40 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms) 
+12:14:40 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms) 
+12:14:40 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.7ms) 
+12:14:40 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.8ms) 
+12:14:40 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms) 
+12:14:40 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (85.2ms) 
+12:14:40 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.4ms) 
+12:14:40 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (103.7ms) 
+12:14:49 DEBUG:  
+12:14:49 DEBUG:  
+12:14:49 INFO: Started GET "/quadone_new/wp-content/uploads/2014/03/mainbanner1.jpg" for 127.0.0.1 at 2015-04-13 12:14:49 +0530 
+12:14:49 DEBUG:  
+12:14:49 DEBUG:  
+12:14:49 INFO: Started GET "/quadone_new/wp-content/uploads/2014/02/new-blue.jpg" for 127.0.0.1 at 2015-04-13 12:14:49 +0530 
+12:14:49 FATAL: 
+ActionController::RoutingError (No route matches [GET] "/quadone_new/wp-content/uploads/2014/03/mainbanner1.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  passenger (5.0.5) lib/phusion_passenger/rack/thread_handler_extension.rb:85:in `process_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  passenger (5.0.5) lib/phusion_passenger/request_handler.rb:414:in `block (3 levels) in start_threads'
+  passenger (5.0.5) lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+ 
+12:14:49 FATAL: 
+ActionController::RoutingError (No route matches [GET] "/quadone_new/wp-content/uploads/2014/02/new-blue.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  passenger (5.0.5) lib/phusion_passenger/rack/thread_handler_extension.rb:85:in `process_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  passenger (5.0.5) lib/phusion_passenger/request_handler.rb:414:in `block (3 levels) in start_threads'
+  passenger (5.0.5) lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+ 
+12:14:49 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms) 
+12:14:49 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.3ms) 
+12:14:49 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.9ms) 
+12:14:49 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.8ms) 
+12:14:49 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms) 
+12:14:49 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (50.2ms) 
+12:14:49 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.2ms) 
+12:14:49 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (55.2ms) 
+12:14:58 DEBUG:  
+12:14:58 DEBUG:  
+12:14:58 INFO: Started GET "/quadone_new/wp-content/uploads/2014/03/new-purple.jpg" for 127.0.0.1 at 2015-04-13 12:14:58 +0530 
+12:14:58 DEBUG:  
+12:14:58 DEBUG:  
+12:14:58 INFO: Started GET "/quadone_new/wp-content/uploads/2014/02/new-blue.jpg" for 127.0.0.1 at 2015-04-13 12:14:58 +0530 
+12:14:58 FATAL: 
+ActionController::RoutingError (No route matches [GET] "/quadone_new/wp-content/uploads/2014/03/new-purple.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  passenger (5.0.5) lib/phusion_passenger/rack/thread_handler_extension.rb:85:in `process_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  passenger (5.0.5) lib/phusion_passenger/request_handler.rb:414:in `block (3 levels) in start_threads'
+  passenger (5.0.5) lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+ 
+12:14:58 FATAL: 
+ActionController::RoutingError (No route matches [GET] "/quadone_new/wp-content/uploads/2014/02/new-blue.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  passenger (5.0.5) lib/phusion_passenger/rack/thread_handler_extension.rb:85:in `process_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  passenger (5.0.5) lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  passenger (5.0.5) lib/phusion_passenger/request_handler.rb:414:in `block (3 levels) in start_threads'
+  passenger (5.0.5) lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+ 
+12:14:58 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms) 
+12:14:58 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms) 
+12:14:58 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.4ms) 
+12:14:58 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms) 
+12:14:58 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (45.7ms) 
+12:14:58 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.3ms) 
+12:14:58 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms) 
+12:14:58 INFO:   Rendered /home/verexo/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (76.6ms) 

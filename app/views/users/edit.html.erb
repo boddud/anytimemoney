@@ -1,0 +1,11 @@
+<h1 >LookUp Account</h1>
+
+<%= form_tag('/users/lookup_acnum')  do   %>
+<p>
+	Account Number 	<%= text_field_tag 'account' %><br />
+	    Pin Number 		<%= password_field_tag 'pin'%>
+    
+</p>
+ <p class="button"><%= submit_tag "LookUpAccount" %></p>
+<% end %>
+<%= link_to "Back", root_url, :class => "dropdown-toggle", :data => {:toggle=>"dropdown"} %><br />
