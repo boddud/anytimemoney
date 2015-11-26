@@ -21,9 +21,12 @@ test:
   timeout: 5000
 
 production:
-  adapter: mysql
-  database: anytimemoney
-  username: root
-  password: root
-  pool: 5
-  timeout: 5000
+  adapter: postgresql
+  encoding: utf8
+  database: d2oml4bq1qb7ts
+  username: fnvthlotwohtaq
+  password:  5PHNF0TEhz0eR6Od739xYt87sY
+  pool: 5 # not mandatory
+  timeout: 5000 # not mandatory
+  host: ec2-54-83-36-176.compute-1.amazonaws.com
+  port: 5432

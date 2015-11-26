@@ -9,7 +9,7 @@ class UsersController < ApplicationController
   
   def new 
     logger.info "Index the userdetails"
-    @user=User.new(user_params)
+    @user=User.new
   end
   
   
