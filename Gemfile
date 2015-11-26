@@ -4,7 +4,6 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.2'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # loogers log4r
 gem 'log4r', '1.1.10'
 gem 'mysql'
@@ -39,6 +38,7 @@ end
 group :development,:test do
   gem 'factory_girl_rails'
   gem 'rspec-rails'
+  gem 'sqlite3'
 end
 group :production do
   gem 'pg'
