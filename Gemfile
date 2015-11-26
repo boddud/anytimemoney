@@ -6,7 +6,7 @@ gem 'rails', '4.0.2'
 # Use sqlite3 as the database for Active Record
 # loogers log4r
 gem 'log4r', '1.1.10'
-# gem 'mysql'
+gem 'mysql'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
