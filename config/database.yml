@@ -21,11 +21,9 @@ test:
   timeout: 5000
 
 production:
-  adapter: postgresql
-  encoding: utf8
-  database: name
-  username: hading
-  password: my_db_password
-  host: localhost # not mandatory
-  pool: 5 # not mandatory
-  timeout: 5000 # not mandatory
+  adapter: mysql
+  database: anytimemoney
+  username: root
+  password: root
+  pool: 5
+  timeout: 5000
