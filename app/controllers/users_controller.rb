@@ -1,9 +1,9 @@
 class UsersController < ApplicationController
   
   def index
-    logger.info "Index User info"
-    Rails.logger.info "sample text"
-  @user=User.find(:first, :conditions=>["account = ?", params[:account]])
+  #   logger.info "Index User info"
+  #   Rails.logger.info "sample text"
+  # @user=User.find(:first, :conditions=>["account = ?", params[:account]])
   end
   
   
