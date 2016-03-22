@@ -1,15 +1,13 @@
-<div>
-	<%= image_tag("http://www.iluvcinema.in/telugu/wp-content/gallery/pawan-kalyans-sardar-gabbar-singh-movie-posters/Pawan-Kalyans-Sardar-Gabbar-Singh-Movie-Posters-4.jpg") %>
+<div align="center">
+	<%= image_tag("http://www.maastars.com/wp-content/uploads/2016/03/Sardar-Maastars.png", size: "800x500", :align=> "middle") %>
 </div>
 <div class="devraj">
-<h1> Welcome to Gabbar Studio</h1>
+<h1> Welcome to Sardar Gabbar Studio</h1>
 <%= link_to "SignUp", signup_path, :class => "dropdown-toggle", :data => {:toggle=>"dropdown"} %><br />
 
 <%= form_tag('/users/create')  do   %>
 <p>
 	Account Number 	<%= text_field_tag 'account' %><br />
-	
-    
 </p>
  <p class="button"><%= submit_tag "LookUpAccount" %></p>
 <% end %>

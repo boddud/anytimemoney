@@ -1,0 +1,122 @@
+21:59:57 DEBUG:  
+21:59:57 DEBUG:  
+21:59:57 INFO: Started GET "/" for 127.0.0.1 at 2016-03-22 21:59:57 +0530 
+21:59:58 DEBUG:   [1m[36mActiveRecord::SchemaMigration Load (34.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m 
+21:59:58 INFO: Processing by UsersController#index as HTML 
+21:59:58 INFO:   Rendered users/index.html.erb within layouts/application (3.0ms) 
+21:59:58 INFO: Completed 200 OK in 84ms (Views: 73.7ms | ActiveRecord: 0.0ms) 
+21:59:58 DEBUG:  
+21:59:58 DEBUG:  
+21:59:58 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-22 21:59:58 +0530 
+21:59:58 DEBUG:  
+21:59:58 DEBUG:  
+21:59:58 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-03-22 21:59:58 +0530 
+21:59:58 DEBUG:  
+21:59:58 DEBUG:  
+21:59:58 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-22 21:59:58 +0530 
+21:59:58 DEBUG:  
+21:59:58 DEBUG:  
+21:59:58 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-22 21:59:58 +0530 
+21:59:58 DEBUG:  
+21:59:58 DEBUG:  
+21:59:58 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-22 21:59:58 +0530 
+21:59:58 DEBUG:  
+21:59:58 DEBUG:  
+21:59:58 INFO: Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-22 21:59:58 +0530 
+21:59:58 DEBUG:  
+21:59:58 DEBUG:  
+21:59:58 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-22 21:59:58 +0530 
+22:00:50 DEBUG:  
+22:00:50 DEBUG:  
+22:00:50 INFO: Started GET "/" for 127.0.0.1 at 2016-03-22 22:00:50 +0530 
+22:00:50 INFO: Processing by UsersController#index as HTML 
+22:00:50 INFO:   Rendered users/index.html.erb within layouts/application (2.2ms) 
+22:00:50 INFO: Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms) 
+22:02:00 DEBUG:  
+22:02:00 DEBUG:  
+22:02:00 INFO: Started GET "/" for 127.0.0.1 at 2016-03-22 22:02:00 +0530 
+22:02:00 INFO: Processing by UsersController#index as HTML 
+22:02:00 INFO:   Rendered users/index.html.erb within layouts/application (2.0ms) 
+22:02:00 INFO: Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms) 
+22:05:21 DEBUG:  
+22:05:21 DEBUG:  
+22:05:21 INFO: Started GET "/" for 127.0.0.1 at 2016-03-22 22:05:21 +0530 
+22:05:21 INFO: Processing by UsersController#index as HTML 
+22:05:21 INFO:   Rendered users/index.html.erb within layouts/application (2.5ms) 
+22:05:21 INFO: Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms) 
+22:05:45 DEBUG:  
+22:05:45 DEBUG:  
+22:05:45 INFO: Started GET "/" for 127.0.0.1 at 2016-03-22 22:05:45 +0530 
+22:05:45 INFO: Processing by UsersController#index as HTML 
+22:05:45 INFO:   Rendered users/index.html.erb within layouts/application (2.8ms) 
+22:05:45 INFO: Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms) 
+22:05:57 DEBUG:  
+22:05:57 DEBUG:  
+22:05:57 INFO: Started GET "/" for 127.0.0.1 at 2016-03-22 22:05:57 +0530 
+22:05:57 INFO: Processing by UsersController#index as HTML 
+22:05:57 INFO:   Rendered users/index.html.erb within layouts/application (2.9ms) 
+22:05:57 INFO: Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms) 
+22:11:26 DEBUG:  
+22:11:26 DEBUG:  
+22:11:26 INFO: Started GET "/" for 127.0.0.1 at 2016-03-22 22:11:26 +0530 
+22:11:26 INFO: Processing by UsersController#index as HTML 
+22:11:26 INFO:   Rendered users/index.html.erb within layouts/application (2.9ms) 
+22:11:26 INFO: Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 0.0ms) 
+22:11:27 DEBUG:  
+22:11:27 DEBUG:  
+22:11:27 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-22 22:11:27 +0530 
+22:11:27 DEBUG:  
+22:11:27 DEBUG:  
+22:11:27 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-22 22:11:27 +0530 
+22:11:27 DEBUG:  
+22:11:27 DEBUG:  
+22:11:27 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-03-22 22:11:27 +0530 
+22:11:27 DEBUG:  
+22:11:27 DEBUG:  
+22:11:27 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-22 22:11:27 +0530 
+22:11:27 DEBUG:  
+22:11:27 DEBUG:  
+22:11:27 INFO: Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-22 22:11:27 +0530 
+22:11:27 DEBUG:  
+22:11:27 DEBUG:  
+22:11:27 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-22 22:11:27 +0530 
+22:11:27 DEBUG:  
+22:11:27 DEBUG:  
+22:11:27 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-22 22:11:27 +0530 
+22:13:10 DEBUG:  
+22:13:10 DEBUG:  
+22:13:10 INFO: Started POST "/users/create" for 127.0.0.1 at 2016-03-22 22:13:10 +0530 
+22:13:10 INFO: Processing by UsersController#create as HTML 
+22:13:10 INFO:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"BSutIX6IHjSVxnFtCjZZYE1trP4eYmNw41fvPduoqz0=", "account"=>"1206", "commit"=>"LookUpAccount"} 
+22:13:10 WARN: DEPRECATION WARNING: Calling #find(:first) is deprecated. Please call #first directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from create at /home/devraj/git/anytimemoney/app/controllers/users_controller.rb:26) 
+22:13:10 DEBUG:   [1m[35mUser Load (25.6ms)[0m  SELECT `users`.* FROM `users` WHERE (account = '1206') ORDER BY `users`.`id` ASC LIMIT 1 
+22:13:10 INFO: Redirected to http://localhost:3000/signup 
+22:13:10 INFO: Completed 302 Found in 370ms (ActiveRecord: 293.9ms) 
+22:13:10 DEBUG:  
+22:13:10 DEBUG:  
+22:13:10 INFO: Started GET "/signup" for 127.0.0.1 at 2016-03-22 22:13:10 +0530 
+22:13:10 INFO: Processing by UsersController#new as HTML 
+22:13:10 INFO: Index the userdetails 
+22:13:10 INFO:   Rendered users/new.html.erb within layouts/application (3.0ms) 
+22:13:10 INFO: Completed 200 OK in 92ms (Views: 21.0ms | ActiveRecord: 68.9ms) 
+22:13:10 DEBUG:  
+22:13:10 DEBUG:  
+22:13:10 INFO: Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-22 22:13:10 +0530 
+22:13:10 DEBUG:  
+22:13:10 DEBUG:  
+22:13:10 INFO: Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-22 22:13:10 +0530 
+22:13:10 DEBUG:  
+22:13:10 DEBUG:  
+22:13:10 INFO: Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-03-22 22:13:10 +0530 
+22:13:10 DEBUG:  
+22:13:10 DEBUG:  
+22:13:10 INFO: Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-22 22:13:10 +0530 
+22:13:10 DEBUG:  
+22:13:10 DEBUG:  
+22:13:10 INFO: Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-22 22:13:10 +0530 
+22:13:10 DEBUG:  
+22:13:10 DEBUG:  
+22:13:10 INFO: Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-22 22:13:10 +0530 
+22:13:10 DEBUG:  
+22:13:10 DEBUG:  
+22:13:10 INFO: Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-22 22:13:10 +0530 
